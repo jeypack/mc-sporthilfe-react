@@ -1,0 +1,100 @@
+// 1.A Colors
+$color-primary: #222 !default;
+
+$color-alt: #39598c !default;
+
+$color-link: $color-alt  !default;
+
+$color-dark: #444 !default;
+$color-light: #ccc !default;
+$color-white: #fff !default;
+$color-grey: #666 !default;
+
+$color-green: #0dff40 !default;
+//$color-green: #264f36 !default;
+$color-red: #e3051b !default;
+$color-blue: #4d7cc2 !default;
+$color-yellow: #ffbc0d !default;
+
+
+// color definitions
+$color-yellow-light : #FEDC3C !default;
+$color-orange : #DC8712 !default;
+$color-grey-light : lighten($color-grey, 10%) !default;
+$color-blue-dark : #04336F !default;
+$color-blue-light : #2cd2f0 !default;
+$color-red-light : #ff0000 !default;
+//$color-green-light : #0dff40 !default;
+$color-green-dark : #264f36 !default;
+$color-white-light : rgba(255,255,255,0.9) !default;
+$color-black : #000;
+
+// 1.B Screen sizes
+$screen-xs-min: 480px !default;
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;
+
+$container-max-width: 1170px;
+
+// 1.C Grid
+$container-gutters: 12px;
+$container-gutters-sm: 6px;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max : ($screen-sm-min - 1) !default;
+$screen-sm-max : ($screen-md-min - 1) !default;
+$screen-md-max : ($screen-lg-min - 1) !default;
+// 320px 360px 375px 411px 414px
+$screen-iphone5: 320px !default;
+$screen-s5: 360px !default;
+$screen-iphone678: 375px !default;
+$screen-pixel2: 411px !default;
+$screen-iphone678plus: 414px !default;
+
+$padding-content-bkg : 2px 4px !default;
+$padding-content : 15px 20px 20px 20px !default;
+
+$body-bkg : $color-blue-dark !default;
+
+// size definitions
+$font-size-base : 15px;
+// $font-size-h1 : calc(36px + 0.8vw);
+// $font-size-h2 : calc(24px + 0.8vw);
+// $font-size-h3 : calc(18px + 0.8vw);
+$font-size-h1 : 64px;
+$font-size-h2 : 42px;
+$font-size-h3 : 24px;
+$font-size-h4 : 21px;
+$font-size-h5 : 18px;
+$font-size-p : 16px;
+$font-size-p-small : 12px;
+$font-size-btn : 18px;
+$font-size-input : 24px;
+$font-size-form-2 : 17px;
+
+$font-size-dynamic-std: calc(10px + 2vmin);
+
+// vw	Relative to 1% of the width of the viewport*
+// vh	Relative to 1% of the height of the viewport*
+// vmin	Relative to 1% of viewport's* smaller dimension
+// vmax	Relative to 1% of viewport's* larger dimension
+
+$line-height-default : 1.2;
+
+$form-padding: 16px 12px;
+
+// font
+$font-family : "Speedee", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+$font-family-condensed : "SpeedeeCd", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+$font-weight-default : normal !default;
+
+// animations
+$page-transition-duration : 0.6s !default;
+$page-timing-function : ease !default;
+
+//$background-image: url(./assets/background.jpg);

@@ -1,0 +1,60 @@
+@import '../scss/variables';
+
+.egp-header {
+  display: block;
+  width: 100%;
+  position: relative;
+
+
+  .container {
+    min-height: 50px;
+    // div[class^="col"] > div {}
+  }
+  .mc-header {
+    img {
+      max-width: 260px;
+    }
+  }
+  .mc-logo {
+    img {
+      max-width: 80px;
+    }
+    padding: 12px;
+  }
+  .language {
+    color: $color-white;
+    font-size: $font-size-h4;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    &.selected {
+      color: $color-green-dark;
+    }
+  }
+  .separator {
+    color: $color-white;
+    font-size: $font-size-h2;
+    font-weight: bold;
+    padding-bottom: 6px;
+  }
+}
+
+@media (min-width: 480px) {
+  .egp-header {
+    padding-bottom: 24px;
+
+    .mc-header {
+      img {
+        max-width: 320px;
+      }
+    }
+
+    .mc-logo {
+      img {
+        max-width: 80px;
+      }
+
+      padding: 12px;
+    }
+  }
+}

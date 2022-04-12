@@ -1,0 +1,42 @@
+Showstopper bei mcdosporthilfe.ch. Man kann bei Strato wohl keine beliebigen Mailserver per php ansprechen. Die Ports sind nur für smtp.strato.de freigeschalten.
+
+https://www.strato.de/faq/mail/e-mail-versand-aus-cgi-und-php-skripten/
+
+Wir benötigen daher SMTP-Zugangsdaten für kommunikation@sporthilfe.ch. Kannst Du hierzu bitte ein Mailkonto einrichten und mir die SMTP-Zugangsdaten schicken?
+
+Zugangsdaten für die Mail-Adresse:
+
+user: kommunikation@mcdosporthilfe.ch
+pswd: #CwJjmNPh3V_?_QD
+
+pop3.strato.de 995
+imap.strato.de 993
+smtp.strato.de 465
+
+Zentrale E-Mail-Adresse:
+
+kommunikation@sporthilfe.ch
+
+https://mcdosporthilfe.ch/
+
++++++
+React Starter Porsche 2022
+
+Project URL: https://gitlab-eu.factory.tools/joerg.pfeifer/
+Project slug: react-starter-porsche-2022
+
+
+ON -> 07:00 - 01:00 = 18 Stunden Tag   | CURRENT
+--------------------------------------
+ON -> 10:00 - 04:00 = 18 Stunden Tag   | 1
+--------------------------------------
+ON -> 13:00 - 07:00 = 18 Stunden Tag   | 2
+--------------------------------------
+ON -> 16:00 - 10:00 = 18 Stunden Nacht | 3
+--------------------------------------
+ON -> 19:00 - 13:00 = 18 Stunden Nacht | 4
+
+======================================
+ON -> 19:00 - 13:00 = 18 Stunden Nacht -> Wachstum
+
+ON -> 19:00 - 07:00 = 12 Stunden Nacht -> Blüte
